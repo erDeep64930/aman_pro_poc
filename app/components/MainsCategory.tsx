@@ -6,12 +6,12 @@ const MainsCategory = () => {
     <div>
           <h2 className="text-xl text-black">Mains Categories</h2>
        <ul className="mt-10 flex gap-8 ">
-            {FEATURES.map((feature) => (
+            {FEATURES.map(({title,icon,description}) => (
               <FeatureItem 
-                key={feature.title}
-                title={feature.title} 
-                icon={feature.icon}
-                description={feature.description}
+                key={title}
+                title={title} 
+                icon={icon}
+                description={description}
               />
             ))}
           </ul>
@@ -19,9 +19,9 @@ const MainsCategory = () => {
       )
     }
 type FeatureItem = {
-  title: string;
-  icon: string;
-  description: string;
+  title?: string;
+  icon?: string;
+  description?: string;
 }
 
 const FeatureItem = ({ title, icon, description }: FeatureItem) => {
