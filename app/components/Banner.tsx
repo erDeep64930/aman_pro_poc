@@ -10,7 +10,7 @@ interface BannerProps {
 
 const BannerSite = ({ backgroundImage, title, subtitle, peopleJoined }: BannerProps) => {
   return (
-    <div className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl border border-blue-900 bg-pink-700`}>
+    <div className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl border border-blue-900 bg-pink-200`}>
      <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
       <div className="flexCenter gap-4">
        
@@ -45,13 +45,13 @@ const Banner = () => {
     <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <BannerSite 
-          backgroundImage="bg-bg-img-1.jpg"
+          backgroundImage="bg-img1.jpg"
           title="MAINS"
           subtitle="GS-1 to GS -4"
           peopleJoined="50+ Joined"
         />
         <BannerSite 
-          backgroundImage="bg-bg-img-2.jpg"
+          backgroundImage="bg-img2.jpg"
           title="PRELIMS"
           subtitle="General Studies"
           peopleJoined="50+ Joined"

@@ -47,57 +47,14 @@ export const NAV_LINKS = [
     },
     ,
     {
-      title: 'GS4 Today',
-      icon: '/GS1.png',
+      title: 'ESSAY Today',
+      icon: '/GS5.png',
       variant: 'orange',
       description:
         'Empower every hand, uplift every heart; prosperity blooms when equality is the art',
     },
     ,
-    {
-      title: 'ESSAY Today',
-      icon: '/location.svg',
-      variant: 'orange',
-      description:
-        'Natures wisdom, our shield unseen; against viral foes, new defenses convene.',
-    },
+   
   ];
   
-  // FOOTER SECTION
-  export const FOOTER_LINKS = [
-    {
-      title: 'Learn More',
-      links: [
-        'About Hilink',
-        'Press Releases',
-        'Environment',
-        'Jobs',
-        'Privacy Policy',
-        'Contact Us',
-      ],
-    },
-    {
-      title: 'Our Community',
-      links: ['GS1', 'GS2', 'GS3'],
-    },
-  ];
-  
-  export const FOOTER_CONTACT_INFO = {
-    title: 'Contact Us',
-    links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'deepdesignweb.co.in' },
-    ],
-  };
-  
-  export const SOCIALS = {
-    title: 'Social',
-    links: [
-      '/facebook.svg',
-      '/instagram.svg',
-      '/twitter.svg',
-      '/youtube.svg',
-      '/wordpress.svg',
-    ],
-  };
   
