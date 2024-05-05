@@ -18,32 +18,48 @@ export const NAV_LINKS = [
   // FEATURES SECTION
   export const FEATURES = [
     {
-      title: 'Real maps can be offline',
-      icon: '/map.svg',
+      title: 'GS1 Today',
+      icon: '/GS1.png',
       variant: 'green',
       description:
-        'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+        'True wisdom remains agnostic to parties and candidates, recognizing only the buttons of truth and integrity',
     },
     {
-      title: 'Set an adventure schedule',
-      icon: '/calendar.svg',
+      title: 'GS2 Today',
+      icon: '/GS2.png',
       variant: 'green',
       description:
-        "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+        "Healthy citizens build strong nations; affordable insurance fuels the motivation.",
     },
     {
-      title: 'Technology using augment reality',
-      icon: '/tech.svg',
+      title: 'GS3 Today',
+      icon: '/GS3.png',
       variant: 'green',
       description:
-        'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+        'Plant seeds of nutrition, reap fields of vitality; a plate of health, our shared reality.',
     },
     {
-      title: 'Many new locations every month',
+      title: 'GS4 Today',
+      icon: '/GS4.png',
+      variant: 'orange',
+      description:
+        'Empower every hand, uplift every heart; prosperity blooms when equality is the art',
+    },
+    ,
+    {
+      title: 'GS4 Today',
+      icon: '/GS1.png',
+      variant: 'orange',
+      description:
+        'Empower every hand, uplift every heart; prosperity blooms when equality is the art',
+    },
+    ,
+    {
+      title: 'ESSAY Today',
       icon: '/location.svg',
       variant: 'orange',
       description:
-        'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+        'Natures wisdom, our shield unseen; against viral foes, new defenses convene.',
     },
   ];
   
